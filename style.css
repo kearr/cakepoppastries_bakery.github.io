@@ -901,18 +901,8 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
  
   /* ABOUT US */
   
-  
-.text-center .bg-about img{
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
 
-  /* Full height */
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+ 
 
 .text-center {
   position: relative;
@@ -921,15 +911,14 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 }
  
  .centered {
-  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: bellaboo;
-  font-weight: 700;
-  font-size: 500%;
+  font-family: Bellaboo1;
+  font-weight: 600;
+  font-size: 600%;
   color: #FBE8D9;
-  text-shadow: 3px 3px #594A47;
+  text-shadow: 2px 2px #B5DFCF;
   
 }
 
@@ -1707,6 +1696,13 @@ footer{
 	color: #594A47;
 	font-family: kgc;
 	font-weight: 100%;
+	
+}
+
+.border-cart{
+	width: 800px;
+	height: 4px;
+	background: #B5DFCF;
 	
 }
 
